@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "electron-prebuilt": "^0.37.5"
+  }
+}
