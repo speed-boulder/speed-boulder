@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "electron-mocha": "^1.2.0",
     "electron-prebuilt": "^0.37.5"
   },
   "scripts": {
