@@ -2,8 +2,11 @@
   "devDependencies": {
     "electron-mocha": "^1.2.0",
     "electron-prebuilt": "^0.37.5",
+    "eslint": "^2.8.0",
     "gulp": "^3.9.1",
-    "gulp-electron-mocha": "^1.1.0"
+    "gulp-electron-mocha": "^1.1.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-run": "^1.6.12"
   },
   "scripts": {
     "postinstall": "cd app && npm install",
