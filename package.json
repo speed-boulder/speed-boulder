@@ -1,10 +1,13 @@
 {
   "devDependencies": {
     "electron-mocha": "^1.2.0",
-    "electron-prebuilt": "^0.37.5"
+    "electron-prebuilt": "^0.37.5",
+    "gulp": "^3.9.1",
+    "gulp-electron-mocha": "^1.1.0"
   },
   "scripts": {
     "postinstall": "cd app && npm install",
-    "start": "electron app"
+    "start": "electron app",
+    "test": "gulp test"
   }
 }
