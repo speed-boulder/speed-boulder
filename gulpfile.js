@@ -1,3 +1,5 @@
+"use-strict";
+
 const gulp = require('gulp');
 const electronMocha = require('gulp-electron-mocha');
 
