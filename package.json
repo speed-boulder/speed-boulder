@@ -9,7 +9,7 @@
     "start": "electron app",
     "test": "npm run eslint && npm run emocha:main && npm run emocha:renderer",
     "eslint": "eslint \"app/**.js\"",
-    "emocha:main": "electron-mocha app/main.js",
-    "emocha:renderer": "electron-mocha app/lib --renderer --recursive"
+    "emocha:main": "electron-mocha ./app/main.js",
+    "emocha:renderer": "electron-mocha ./app/lib --renderer --recursive"
   }
 }
