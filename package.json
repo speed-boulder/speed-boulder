@@ -2,13 +2,13 @@
   "devDependencies": {
     "electron-mocha": "^1.2.1",
     "electron-prebuilt": "^0.37.6",
-    "eslint": "^2.8.0"
+    "standard": "^6.0.8"
   },
   "scripts": {
     "postinstall": "cd app && npm install",
     "start": "electron app",
-    "test": "npm run eslint && npm run emocha:main && npm run emocha:renderer",
-    "eslint": "eslint \"app/**.js\"",
+    "test": "standard && npm run emocha:main && npm run emocha:renderer",
+    "standard": "standard",
     "emocha:main": "electron-mocha ./app/main.js",
     "emocha:renderer": "electron-mocha ./app/lib --renderer --recursive"
   }
