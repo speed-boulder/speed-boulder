@@ -7,9 +7,9 @@
   "scripts": {
     "postinstall": "cd app && npm install",
     "start": "electron app",
-    "test": "standard && npm run emocha:main",
+    "test": "standard && npm run emocha:renderer",
     "standard": "standard",
-    "emocha:main": "electron-mocha ./app/main.js",
-    "emocha:renderer": "electron-mocha ./app/lib --renderer --recursive"
+    "emocha:main": "electron-mocha",
+    "emocha:renderer": "electron-mocha ./test/mocha.js --renderer"
   }
 }

@@ -1,4 +1,4 @@
-# Speed Boulder
+# Speed Boulder (In Development)
 
 An open source augmented reality climbing game.
 
