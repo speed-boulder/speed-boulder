@@ -1,10 +1,12 @@
 {
   "devDependencies": {
-    "electron-mocha": "^1.2.1",
-    "electron-prebuilt": "^0.37.6",
-    "standard": "^6.0.8"
+    "david": "7.0.2",
+    "electron-mocha": "2.1.0",
+    "electron-prebuilt": "1.1.0",
+    "standard": "7.1.0"
   },
   "scripts": {
+    "david": "david & david -p app/package.json",
     "postinstall": "cd app && npm install",
     "start": "electron app",
     "test": "standard && npm run emocha:renderer",
